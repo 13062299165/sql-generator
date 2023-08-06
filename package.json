@@ -1,0 +1,33 @@
+{
+  "private": true,
+  "author": "chenzhenhan <2623598253@qq.com>",
+  "scripts": {
+    "build": "max build",
+    "dev": "max dev",
+    "format": "prettier --cache --write .",
+    "postinstall": "max setup",
+    "prepare": "husky install",
+    "setup": "max setup",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.0.1",
+    "@ant-design/pro-components": "^2.4.4",
+    "@umijs/max": "^4.0.74",
+    "antd": "^5.4.0",
+    "copy-to-clipboard": "^3.3.3"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.33",
+    "@types/react-dom": "^18.0.11",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.0",
+    "monaco-editor": "^0.41.0",
+    "monaco-editor-webpack-plugin": "^7.1.0",
+    "prettier": "^2.8.7",
+    "prettier-plugin-organize-imports": "^3.2.2",
+    "prettier-plugin-packagejson": "^2.4.3",
+    "react-monaco-editor": "^0.54.0",
+    "typescript": "^5.0.3"
+  }
+}
